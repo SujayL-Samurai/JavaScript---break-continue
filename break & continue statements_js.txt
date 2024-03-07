@@ -1,0 +1,14 @@
+break = breaks out of a loop entirely
+continue = skip an iteration of a loop
+
+
+
+for(i = 1; i<=20; i+=1){
+    if(i==8){
+        continue
+    }
+    if(i==16){
+    break
+    }
+    console.log(i);
+}
